@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width Adam's app, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="level 1">
+    <title>Football IQ</title>
+    <style>
+        h1 {
+            text-align: center; /* Centers the text */
+        }
+    </style>
+    <style>
+        /* CSS to display links in a row */
+        .link-container {
+            display: flex; /* Use flexbox to arrange items in a row */
+            gap: 10px; /* Optional: adds space between links */
+        }
+    </style>
+    </head>
+    <h1>Football IQ</h1>
+     <H2>Level 1</H2>
+     <p>1. who is the most goal scorer in the chamions league</p>
+
+
+
+</body>
+
+<div class="correctAnswer">
+    <label>
+        <input type="radio" name="Messi" value="Messi"> Messi
+    </label>
+    <label>
+        <input type="radio" name="Neymar" value="Neymar"> Neymar
+    </label>
+    <label>
+        <input type="radio" name="Cristiano Ronaldo " value="Cristiano Ronaldo "> Cristiano Ronaldo 
+    </label>
+    <label>
+        <input type="radio" name="Raul" value="Raul"> Raul
+    </label>
+</div>
+
+
+<script>
+function checkAnswer() {
+    const radios = document.getElementsByName('Ronaldo');
+    let selectedAnswer;
+    
+    // Get the selected radio button
+    for (const radio of radios) {
+        if (radio.checked) {
+            selectedAnswer = radio.value;
+            break;
+        }
+    }
+
+    // Check if an answer was selected
+    if (selectedAnswer) {
+        const correctAnswer = "Ronaldo";
+        
+        // Display the result
+        const resultDiv = document.getElementById('Ronaldo');
+        if (selectedAnswer === correctAnswer) {
+            resultDiv.textContent = "Correct! 🎉";
+        } else {
+            resultDiv.textContent = "Incorrect. Try again!";
+        }
+    } else {
+        alert("Please select an answer.");
+    }
+}
+</script>
+<p>2.who took the ballandor 2007</p>
+<div class="correctAnswer"></div>
+    <label>
+        <input type="radio" name="Kaka" value="Kaka"> Kaka
+    </label>
+    <label>
+        <input type="radio" name="Owen" value="Owen"> Owen
+    </label>
+    <label>
+        <input type="radio" name="Ronaldo" value="Ronaldo"> Ronaldo
+    </label>
+    <label>
+        <input type="radio" name="Messi" value="Messi"> Messi
+    </label>
+</div>
+
+
+<script>
+function checkAnswer() {
+    const radios = document.getElementsByName('Kaka');
+    let selectedAnswer;
+    
+    // Get the selected radio button
+    for (const radio of radios) {
+        if (radio.checked) {
+            selectedAnswer = radio.value;
+            break;
+        }
+    }
+
+    // Check if an answer was selected
+    if (selectedAnswer) {
+        const correctAnswer = "kaka";
+        
+        // Display the result
+        const resultDiv = document.getElementById('Kaka');
+        if (selectedAnswer === correctAnswer) {
+            resultDiv.textContent = "Correct! 🎉";
+        } else {
+            resultDiv.textContent = "Incorrect. Try again!";
+        }
+    } else {
+        alert("Please select an answer.");
+    }
+}
+</script>
+ <p>3.how many goals did ronaldo scored in real madrid</p>
+<div class="correctAnswer"></div>
+    <label>
+        <input type="radio" name="374" value="374"> 374
+    </label>
+    <label>
+        <input type="radio" name="450" value="450"> 450
+    </label>
+    <label>
+        <input type="radio" name="488" value="488"> 488
+    </label>
+    <label>
+        <input type="radio" name="456" value="456"> 456
+    </label>
+</div>
+
+
+<script>
+function checkAnswer() {
+    const radios = document.getElementsByName('450');
+    let selectedAnswer;
+    
+    // Get the selected radio button
+    for (const radio of radios) {
+        if (radio.checked) {
+            selectedAnswer = radio.value;
+            break;
+        }
+    }
+
+    // Check if an answer was selected
+    if (selectedAnswer) {
+        const correctAnswer = "450";
+        
+        // Display the result
+        const resultDiv = document.getElementById('450');
+        if (selectedAnswer === correctAnswer) {
+            resultDiv.textContent = "Correct! 🎉";
+        } else {
+            resultDiv.textContent = "Incorrect. Try again!";
+        }
+    } else {
+        alert("Please select an answer.");
+    }
+}
+</script>
+<p>4.what is the most nation that has world cup</p>
+<div class="correctAnswer"></div>
+    <label>
+        <input type="radio" name="Argantina" value="Argantina"> Argantina
+    </label>
+    <label>
+        <input type="radio" name="France" value="France"> France
+    </label>
+    <label>
+        <input type="radio" name="England" value="England"> England
+    </label>
+    <label>
+        <input type="radio" name="Brazil" value="Brazil"> Brazil
+    </label>
+</div>
+
+
+<script>
+function checkAnswer() {
+    const radios = document.getElementsByName('Brazil');
+    let selectedAnswer;
+    
+    // Get the selected radio button
+    for (const radio of radios) {
+        if (radio.checked) {
+            selectedAnswer = radio.value;
+            break;
+        }
+    }
+
+    // Check if an answer was selected
+    if (selectedAnswer) {
+        const correctAnswer = "Brazil";
+        
+        // Display the result
+        const resultDiv = document.getElementById('Brazil');
+        if (selectedAnswer === correctAnswer) {
+            resultDiv.textContent = "Correct! 🎉";
+        } else {
+            resultDiv.textContent = "Incorrect. Try again!";
+        }
+    } else {
+        alert("Please select an answer.");
+    }
+}
+</script>
+<p>who is the top scorer in the premier league in 2020</p>
+<div class="correctAnswer"></div>
+    <label>
+        <input type="radio" name="Sergio Agüero" value="Sergio Agüero"> Sergio Agüero
+    </label>
+    <label>
+        <input type="radio" name="Jamie Vardy" value=" Jamie Vardy"> Jamie Vardy
+    </label>
+    <label>
+        <input type="radio" name="Mohamed Salah " value="Mohamed Salah "> Mohamed Salah 
+    </label>
+    <label>
+        <input type="radio" name="Danny Ings" value="Danny Ings"> Danny Ings
+    </label>
+</div>
+
+
+<script>
+function checkAnswer() {
+    const radios = document.getElementsByName('Vardy');
+    let selectedAnswer;
+    
+    // Get the selected radio button
+    for (const radio of radios) {
+        if (radio.checked) {
+            selectedAnswer = radio.value;
+            break;
+        }
+    }
+
+    // Check if an answer was selected
+    if (selectedAnswer) {
+        const correctAnswer = "Vardy";
+        
+        // Display the result
+        const resultDiv = document.getElementById('Vardy');
+        if (selectedAnswer === correctAnswer) {
+            resultDiv.textContent = "Correct! 🎉";
+        } else {
+            resultDiv.textContent = "Incorrect. Try again!";
+        }
+    } else {
+        alert("Please select an answer.");
+    }
+}
+</script>
+<p>6.Who won the Euro in 2016</p>
+<div class="correctAnswer"></div>
+    <label>
+        <input type="radio" name=" Italy" value="Italy"> Italy
+    </label>
+    <label>
+        <input type="radio" name="Portugal" value=" Portugal"> Portugal
+    </label>
+    <label>
+        <input type="radio" name="France " value="France "> France 
+    </label>
+    <label>
+        <input type="radio" name="German" value="German"> German
+    </label>
+</div>
+
+
+<script>
+function checkAnswer() {
+    const radios = document.getElementsByName('Portugal');
+    let selectedAnswer;
+    
+    // Get the selected radio button
+    for (const radio of radios) {
+        if (radio.checked) {
+            selectedAnswer = radio.value;
+            break;
+        }
+    }
+
+    // Check if an answer was selected
+    if (selectedAnswer) {
+        const correctAnswer = "Portugal";
+        
+        // Display the result
+        const resultDiv = document.getElementById('Portugal');
+        if (selectedAnswer === correctAnswer) {
+            resultDiv.textContent = "Correct! 🎉";
+        } else {
+            resultDiv.textContent = "Incorrect. Try again!";
+        }
+    } else {
+        alert("Please select an answer.");
+    }
+}
+</script>
+<p>7.How many time did Zidane win the ballandor</p>
+<div class="correctAnswer"></div>
+    <label>
+        <input type="radio" name=" 3" value="3"> 3
+    </label>
+    <label>
+        <input type="radio" name="4" value=" 4"> 4
+    </label>
+    <label>
+        <input type="radio" name="2 " value="2 "> 2 
+    </label>
+    <label>
+        <input type="radio" name="1" value="1"> 1
+    </label>
+</div>
+
+
+<script>
+function checkAnswer() {
+    const radios = document.getElementsByName('3');
+    let selectedAnswer;
+    
+    // Get the selected radio button
+    for (const radio of radios) {
+        if (radio.checked) {
+            selectedAnswer = radio.value;
+            break;
+        }
+    }
+
+    // Check if an answer was selected
+    if (selectedAnswer) {
+        const correctAnswer = "3";
+        
+        // Display the result
+        const resultDiv = document.getElementById('3');
+        if (selectedAnswer === correctAnswer) {
+            resultDiv.textContent = "Correct! 🎉";
+        } else {
+            resultDiv.textContent = "Incorrect. Try again!";
+        }
+    } else {
+        alert("Please select an answer.");
+    }
+}
+</script>
+<p>8.How many goals did salah scored with Roma</p>
+<div class="correctAnswer"></div>
+    <label>
+        <input type="radio" name="8" value="34"> 34
+    </label>
+    <label>
+        <input type="radio" name="8" value=" 44"> 44
+    </label>
+    <label>
+        <input type="radio" name="8" value="24 "> 24
+    </label>
+    <label>
+        <input type="radio" name="8" value="54"> 54
+    </label>
+</div>
+
+
+<script>
+function checkAnswer() {
+    const radios = document.getElementsByName('34');
+    let selectedAnswer;
+    
+    // Get the selected radio button
+    for (const radio of radios) {
+        if (radio.checked) {
+            selectedAnswer = radio.value;
+            break;
+        }
+    }
+
+    // Check if an answer was selected
+    if (selectedAnswer) {
+        const correctAnswer = "34";
+        
+        // Display the result
+        const resultDiv = document.getElementById('34');
+        if (selectedAnswer === correctAnswer) {
+            resultDiv.textContent = "Correct! 🎉";
+        } else {
+            resultDiv.textContent = "Incorrect. Try again!";
+        }
+    } else {
+        alert("Please select an answer.");
+    }
+}
+</script>
+<form action="your-server-endpoint" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <input type="submit" value="Submit">
+</form>
+<script>
+    function handleSubmit(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const selectedOption = document.querySelector('input[name="option"]:checked');
+        const feedbackMessage = document.getElementById('feedback');
+
+        if (selectedOption) {
+            if (selectedOption.value === 'correct') {
+                feedbackMessage.textContent = "Correct! Well done!";
+                feedbackMessage.style.color = "green";
+            } else {
+                feedbackMessage.textContent = "Incorrect. Please try again.";
+                feedbackMessage.style.color = "red";
+            }
+        } else {
+            feedbackMessage.textContent = "Please select an option.";
+            feedbackMessage.style.color = "orange";
+        }
+    }
+</script>
+</head>
+<body>
+<h1></h1>
+<form onsubmit="handleSubmit(event)">
+    <label>
+        <input type="radio" name="option" value="correct"> Option A (Correct)
+    </label><br>
+    <label>
+        <input type="radio" name="option" value="incorrect"> Option B (Incorrect)
+    </label><br>
+    <label>
+        <input type="radio" name="option" value="incorrect"> Option C (Incorrect)
+    </label><br>
+    <input type="submit" value="Submit">
+</form>
+<p id="feedback"></p>
+</html>
+
+
+
+
+
+
+
+    
